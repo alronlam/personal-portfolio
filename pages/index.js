@@ -20,7 +20,7 @@ const projects = [
     description: 'Relative wealth estimates for 9 SEA countries. This is similar to <a href="https://beta.povertymaps.net" target="_blank">Meta\'s Realtive Wealth Index estimates</a>, but utilizing only open datasets and low-cost Random Forest models. We made this as a baseline work for SEA with an emphasis on replicability to spur further research in the region and beyond.',
     image: "/images/sea_poverty_mapping.PNG",
     githubUrl: 'https://github.com/thinkingmachines/unicef-ai4d-poverty-mapping',
-    demoUrl: 'https://huggingface.co/spaces/alronlam/bible-search',
+    demoUrl: 'https://studio.foursquare.com/public/590c4ab2-b855-463a-90dd-9917b97b8b57',
     tags: ["Geospatial"]
   },
   {
