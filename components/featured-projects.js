@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FaGithub } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
 import styles from './featured-projects.module.css';
@@ -17,14 +18,13 @@ function renderTags(tags) {
     );
 }
 
-
 export default function FeaturedProjects({ projects }) {
     return (
         <div className={styles.featuredProjects}>
             <h1>Featured Projects</h1>
             {projects.map((project) => (
                 <div key={project.id} className={styles.project}>
-                    <img src={project.image} alt={project.title} />
+                    <Image src={project.image} alt={project.title} width={500} height={500} />
                     <div className={styles.projectDetails}>
                         <h3>{project.title}
                             {renderTags(project.tags)}</h3>
@@ -39,8 +39,9 @@ export default function FeaturedProjects({ projects }) {
                             </a>
                         </div>
                     </div>
-                </div>
-            ))}
-        </div>
+                </div >
+            ))
+            }
+        </div >
     );
 }
