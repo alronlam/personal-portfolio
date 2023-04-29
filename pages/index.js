@@ -9,7 +9,7 @@ const projects = [
     id: 1,
     title: 'Bible Search',
     description: 'What does the Bible say about ...? This is a semantic search tool to surface relevant verses and chapters in the Bible for a topic of interest using embeddings and Question-Answering models. Yes, this was made before ChatGPT exploded; I worked on it sparingly on-and-off since 2020. I\'m hoping to get around to looking for ways to improve this with ChatGPT\'s API soon. But if anything, this should run much faster, and displays whole chapters for better context!',
-    image: "/images/bible_search.png",
+    image: "/images/bible_search.PNG",
     githubUrl: 'https://github.com/alronlam/bible-search',
     demoUrl: 'https://huggingface.co/spaces/alronlam/bible-search',
     tags: ["NLP"]
@@ -35,7 +35,7 @@ const projects = [
   {
     id: 2,
     title: 'Less Than Three (<3)',
-    description: 'Javascript game made for a 2013 Valentine\'s Day Hackathon (~24 hours). Your objective is to find the one for you within the time limit given clues to what they\'re wearing. Once you find them, you have to answer correctly to pass the "compatibility" test. Every character is dynamically generated for each new run of the game. No game engine was used; this was pure HTML/CSS/Javascript!',
+    description: 'Javascript game made for a 2013 Valentine\'s Day Hackathon. Your objective is to find the one for you within the time limit given clues to what they\'re wearing. Once you find them, you have to answer correctly to pass the "compatibility" test. Every character is dynamically generated for each new run of the game. Warning: The game is unpolished as this was made in ~24 hours and was our team\'s first hackathon. No game engine was used; this was pure HTML/CSS/Javascript!',
     image: "/images/less_than_three.png",
     githubUrl: 'https://github.com/alronlam/less-than-three',
     demoUrl: 'https://alronlam.github.io/less-than-three/',
@@ -61,7 +61,7 @@ export default function Home() {
         </p>
         ---
         <p>
-          <i>Fun fact: I used ChatGPT in creating this Next.js portfolio website, despite being more back-end focused in my career and using this framework for the first time. As a practitioner who's worked on NLP applications since 2017, it's still mind-blowing!</i> 🤯
+          <i>Fun fact: I used ChatGPT in creating this Next.js portfolio website, despite being more of a backend dev in my career and using this framework for the first time. As a practitioner who's worked on NLP applications since 2017, it's still mind-blowing!</i> 🤯
         </p>
       </section>
       <section>
