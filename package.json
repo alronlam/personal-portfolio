@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out"
+    "deploy": "next build && touch out/.nojekyll && touch out/_next/.nojekyll && touch out/images/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -16,7 +16,8 @@
     "react-icons": "^4.8.0"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "vercel": "^28.20.0"
   },
   "homepage": "https://alronlam.github.io/personal-portfolio"
 }

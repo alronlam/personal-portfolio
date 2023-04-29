@@ -1,12 +1,8 @@
-/**
- * @type {import('next').NextConfig}
- */
-
-const repo = 'personal-portfolio'
-const assetPrefix = `/${repo}/`
-const basePath = `/${repo}`
-
 module.exports = {
-    assetPrefix: assetPrefix,
-    basePath: basePath,
-}
+    output: "export",
+    basePath: "/personal-portfolio",
+    assetPrefix: "/personal-portfolio/",
+    images: {
+        unoptimized: true
+    }
+};
